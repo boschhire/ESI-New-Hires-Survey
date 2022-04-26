@@ -2,9 +2,6 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
- 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<title>New Hire Participant Survey</title>
 	<script
 			src="https://code.jquery.com/jquery-3.4.1.js"
@@ -34,7 +31,7 @@
 			
 			font-family: Verdana;
 			text-align: left;
-			background-color :white;
+			background-image: url('https://www.wallpaperflare.com/static/769/378/433/bosch-company-equipment-logo-wallpaper-preview.jpg');
   			background-attachment: fixed;
   			background-size: cover;
 			font-size: larger;
@@ -48,17 +45,18 @@
 		  }
 		h1 {
 			font-size: 30px;
-			background-color: pink;
+			background-color: rgb(238, 207, 122);
 			max-width: 500px;
 			margin: 50px auto;
 			padding: 5px 10px;
 			box-shadow: 2px 5px 10px rgb(0,0,0,0.5);
 			text-align: center;
 		}
-		h4{
+		p{
 			padding: 5px 10px;
 			box-shadow: 2px 5px 10px rgb(0,0,0,0.5);
-			background-color:pink;
+			background-color: rgb(233, 210, 108);
+            color:navy;
 		}
 		fieldset {  
 			border: #00cc00 2px solid;  
@@ -69,12 +67,12 @@
 			padding-top: 1px;
 			padding-bottom: 20px;
 			padding-left: 10px;
-			
 			width: 100%;
 		}
 		form {
 			font-size: 20px;
-			background-color:transparent;
+			background-color: transparent;
+            color:springgreen;
 			max-width: 800px;
 			margin: 50px auto;
 			padding: 30px 20px;
@@ -121,7 +119,7 @@
 <body>
 
 	
-	<img class="sticky" src="https://th.bing.com/th/id/OIP.v3cOi_9E3AWhs4Xm6htssgGQBD?pid=ImgDet&rs=1" alt="Avatar">
+	<!--<img class="sticky" src="https://th.bing.com/th/id/OIP.v3cOi_9E3AWhs4Xm6htssgGQBD?pid=ImgDet&rs=1" alt="Avatar">-->
 	<h1>New Hire Participant Survey	</h1>
 	<div class = "formData" >
 		
@@ -149,7 +147,7 @@
 		</div>
 
 		
-		<h4>Rate the Training Logistics based on the follwing Parameters:</h4>
+		<p>Rate the Training Logistics based on the follwing Parameters:</p>
 		<div class="form-control">Work stations Functioning:
 				<select name="Work stations" id="recommed-1"  required>
 					<option value="" disabled selected hidden></option>
@@ -159,14 +157,7 @@
 				</select>
         </div>	
 		
-		<div class="form-control">Projector Functioning:
-			<select name="Projector Functioning" id="recommed-2"  required>
-				<option value="" disabled selected hidden></option>
-				<option value="yes">Yes</option>
-				<option value="no">No</option>
-				<option value="na">NA</option>
-			</select> 
-        </div>		
+			
 
 		<div class="form-control">Network and Tool Login Provided:
 			<select name="Network and Tool Login Provided" id="recommed-3"  required>
@@ -204,7 +195,7 @@
 			</select>
         </div>		
 
-		<div class="form-control">Training Room clean and Tidy:
+		<div class="form-control">Training Room/Meeting Room clean and Tidy:
 			<select name="Training Room clean and Tidy" id="recommed-7"  required>
 				<option value="" disabled selected hidden></option>
 				<option value="yes">Yes</option>
@@ -213,7 +204,7 @@
 			</select> 
         </div>		
 		
-		<h4>Rate your Trainer's Training Delivery Skills based on the following parameters:</h4>
+		<p>Rate your Trainer's Training Delivery Skills based on the following parameters:</p>
 		<div class="form-control">Excellent command over English:
 			<select name="Excellent command over English" id="recommed-8"  required>
 				<option value="" disabled selected hidden></option>
@@ -268,7 +259,7 @@
 			</select>
         </div>		
 			
-		<h4>Rate the Training content based on the following parameters:</h4>
+		<p>Rate the Training content based on the following parameters:</p>
 		<div class="form-control">Clear and Easy to Understand:
 			<select name="Clear and Easy to Understand" id="recommed-14"  required>
 				<option value="" disabled selected hidden></option>
@@ -305,7 +296,7 @@
 			</select>
         </div>	
 		
-		<h4>Overall:</h4>
+		<p>Overall:</p>
 		<div class="form-control">I will recommend this class to my peers:
 			<select name="recommed17" id="recommed-18"  required>
 				<option value="" disabled selected hidden></option>
